@@ -17,7 +17,7 @@ module.exports = function(app) {
         var userScores = userData.scores;
 
         var totalDifference = 0;
-
+// used video walkthrough for this for loop, makes sense to me after watch walkthrough
         for (var i = 0; i<friends.legth; i++) {
             console.log(friends[i]);
             totalDifference = 0;
